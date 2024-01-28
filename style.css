@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --colorh: #19191a;
+    --colorh2: #0c0c0d;
+    --colornav: #5683da;
+    --colorbtn: #212121;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--colorh2);
+}
+header {
+    background-color: var(--colorh2);
+    padding: 20px 150px;
+}
+header img {
+    width: 200px;
+}
+nav.menu-side {
+    width: 80px;
+    height: 100%;
+    padding: 40px 0 40px 1%;
+    background-color: var(--colorh2);
+    box-shadow: 3px 0 0 var(--colornav);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+nav.menu-side:hover {
+    width: 400px;
+}
+.btn-exp {
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-exp > i {
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu {
+    transition: .5s;
+}
+ul li.item-menu:hover {
+    background-color: var(--colornav)
+}
+
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 15%;
+    display: flex;
+    line-height: 40px;
+}
+ul li.item-menu a .txt-link {
+    margin-left: 50px;
+    font-size: 15px;
+}
+ul li.item-menu a .icon > i {
+    font-size: 25px;
+}
+
+/* ad */
+section#ad > img {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    width: 1350px;
+    height: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section#ad > img:hover {
+    box-shadow: 0px 0px 5px 2px var(--colornav)
+}
+section#mini img {
+    display: inline-block;
+    margin: 20px;
+    width: 420px;
+    height: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section#mini img:hover {
+    box-shadow: 0px 0px 5px 2px var(--colornav);
+}
+
+/* guide and separator */
+
+section#guide {
+    text-align: left;
+    margin-left: 15%;
+    color: #5683da;
+}
+section#guide, h1 {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+button {
+    background-color: var(--colorbtn);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+#separator {
+    border-bottom: 3px solid #09d3ac;
+    border-bottom: 3px solid var(--colornav);
+    width: 83%;
+}
