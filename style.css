@@ -35,7 +35,7 @@ nav.menu-side {
     overflow: hidden;
     transition: .4s;
 }
-nav.menu-side:hover {
+nav.menu-side.expandir{
     width: 400px;
 }
 .btn-exp {
@@ -53,6 +53,9 @@ ul {
 }
 ul li.item-menu {
     transition: .5s;
+}
+ul li.active{
+    background-color: var(--colornav);
 }
 ul li.item-menu:hover {
     background-color: var(--colornav)
