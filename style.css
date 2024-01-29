@@ -138,6 +138,33 @@ button {
     color: white;
 }
 
+.img1 {
+    cursor: pointer;
+    margin-right: 135px;
+}
+.img1:hover {
+    box-shadow: 0px 0px 10px 2px var(--colornav);
+}
+.img2 {
+    height: 250px;
+    width: 622px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: -90px;
+}
+.img2:hover {
+    box-shadow: 0px 0px 10px 2px var(--colornav);
+}
+.img3 {
+    height: 250px;
+    width: 622px;
+    cursor: pointer;
+    margin-left: -90px;
+}
+.img3:hover {
+    box-shadow: 0px 0px 10px 2px var(--colornav);
+}
+
 #separator {
     border-bottom: 3px solid #09d3ac;
     border-bottom: 3px solid var(--colornav);
